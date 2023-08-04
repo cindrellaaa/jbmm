@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', 'Arial', sans-serif;
 }
@@ -36,7 +34,7 @@ body {
 }
 
 .left-column {
-    width: 55%;
+    width: 45%;
     background-color: #bee2be;
     border-radius: 20px;
     margin: 10px;
@@ -44,17 +42,13 @@ body {
 
 .left-column img {
     width: 130px;
-    height: 120px;
-    display: block;
+    height: 110px;
 }
 
 .right-column {
     margin-top: -90px;
     padding-left: 150px;
     width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .right-column h3 {
@@ -62,8 +56,6 @@ body {
 }
 
 .right-column a {
-    display: flex;
-    align-items: center;
     text-decoration: none;
 }
 
@@ -76,6 +68,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin: auto;
+}
+
+.owl-carousel .owl-stage-outer{
+    padding-left: 200px;
 }
 
 /* banner cards end */
