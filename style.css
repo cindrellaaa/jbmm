@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e3e3;
+    justify-content: center;
+    align-items: center;
+}
+
+/* banner cards start */
+
+.banner-cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    max-width: 1300px;
+    height: 190px;
+    background-color: #E9EEF2;
+    position: absolute;
+    overflow: hidden;
+}
+
+.item {
+    border-radius: 20px;
+    width: calc(90% - 30px);
+    height: 138px;
+    background-color: #ffffff;
+    margin-left: 15px;
+}
+
+.left-column {
+    width: 55%;
+    background-color: #bee2be;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.left-column img {
+    width: 130px;
+    height: 120px;
+    display: block;
+}
+
+.right-column {
+    margin-top: -90px;
+    padding-left: 150px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-column h3 {
+    margin-bottom: 10px;
+}
+
+.right-column a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.right-column i {
+    color: green;
+    margin-left: 5px;
+}
+
+.banner-cards .owl-carousel {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/* banner cards end */
+
+/* Team start */
+
+.fact {
+    background-color: #5b5352;
+}
+
+.fact .fa {
+    color: #ffffff;
+    font-size: 60px;
+}
+
+/* team end */
