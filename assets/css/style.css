@@ -46,13 +46,14 @@ body {
 }
 
 .right-column {
-    margin-top: -90px;
+    margin-top: -80px;
     padding-left: 150px;
     width: 100%;
 }
 
 .right-column h3 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
 }
 
 .right-column a {
@@ -79,12 +80,19 @@ body {
 /* Team start */
 
 .fact {
-    background-color: #5b5352;
+    background-color: #cec8c7;
 }
 
 .fact .fa {
-    color: #ffffff;
-    font-size: 60px;
+    color: #000000;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-right: -80px;
+}
+
+.fact .card{
+    background-color: #cec8c7;
+    border: none;
 }
 
 /* team end */
