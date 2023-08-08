@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JBMM</title>
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <!--Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <main id="main-site">
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <br />
+            <p>Need Help? <span>Contact Us</span></p>
+          </div>
+          <div class="mb-3">
+            <iframe
+              style="border: 0; width: 100%; height: 350px"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4904.254943774454!2d55.29379239235579!3d25.242409430494533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d34ec933bc3%3A0x2349a4a88a95fbef!2sJBMM%20International%20Trading%20LLC!5e0!3m2!1sen!2sus!4v1691399281177!5m2!1sen!2sus"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- End Google Maps -->
+
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center">
+                <i class="fa-solid fa-map-location-dot icon"></i>
+                <div>
+                  <h3>Our Address</h3>
+                  <p>
+                    Office 201, Room No.17, Crystal Building, Al Karama, Dubai,
+                    UAE
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center">
+                <i class="fa-solid fa-envelope icon"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@jbmminternational.com</p>
+                  <p>sales@jbmminternational.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center">
+                <i class="fa-solid fa-phone icon"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+971 4 529 4526</p>
+                  <p>Sales: +971 52 340 1124</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center">
+                <i class="fa-solid fa-clock icon"></i>
+                <div>
+                  <h3>Opening Hours</h3>
+                  <div>
+                    <strong>Mon-Sat:</strong> 9 AM - 6 PM |
+                    <strong>Sunday:</strong> Closed
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+
+          <form
+            action="forms/contact.php"
+            method="post"
+            role="form"
+            class="php-email-form p-3 p-md-4"
+          >
+            <div class="row">
+              <div class="col-xl-6 form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="col-xl-6 form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your message has been sent. Thank you!
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+          <!--End Contact Form -->
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+  </body>
+
+  <!--Bootstrap CDN-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+</html>
