@@ -12,13 +12,26 @@
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+
 .wrap.active {
   left: 14em;
 }
-a.side-menu-link {
+
+.wrap .sidemenu li{
   float: left;
   display: block;
-  padding: 1em;
+  padding-right: 7em;
+  padding-bottom: 1em;
+}
+
+.wrap .sidemenu a{
+  text-decoration: none;
+  color:rgb(21, 20, 20);
+}
+
+.tab-content{
+  margin-left: 40px;
+  overflow: visible;
 }
 
 @media screen and (max-width: 48.063em) {

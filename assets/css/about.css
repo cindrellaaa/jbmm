@@ -131,10 +131,7 @@ section {
 .about .background-orange h3{
   padding-right: 200px;
   padding-left: 60px;
-  padding-top: 110px
-}
-
-.about .background-orange h3{
+  padding-top: 110px;
   margin-bottom: -90px;
   font-size: 3rem;
   font-weight: bolder;
@@ -145,6 +142,61 @@ section {
   display: block;
 }
 
+@media (max-width: 1223px) {
+  .about .background-orange{
+    width: 680px;
+    margin-bottom: 500px;
+  } 
+
+  .about .background-orange p{
+    padding-right: 100px;
+  }
+
+  .about .background-orange h3{
+    padding-top: 50px;
+    padding-right: 100px;
+  }
+  
+  .about .background-purple{
+    left: 500px;
+    top: -15px;
+  }
+
+  .about .background-image{
+    width: 588px;
+    left: 250px;
+    top: 490px;
+  }
+}
+
+@media (max-width: 990px) {
+  .about .background-orange{
+    width: 680px;
+    margin-bottom: 700px;
+  } 
+
+  .about .background-orange p{
+    padding-right: 100px;
+  }
+
+  .about .background-orange h3{
+    padding-top: 50px;
+    padding-right: 100px;
+  }
+  
+  .about .background-purple{
+    padding-right: 100px;
+    left: 200px;
+    top: 200px;
+  }
+
+  .about .background-image{
+    width: 488px;
+    left: 100px;
+    top: 660px;
+  }
+ 
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -268,6 +320,20 @@ section {
 
   .facts .fst-italic{
     margin-bottom: 30px;
+  }
+
+  @media (min-width: 1026px) {
+    .facts ul li {
+      padding: 0 0 10px 200px;
+    }
+
+    .facts ul i {
+      left: 130px;
+    }
+
+    .facts .fst-italic{
+      margin-left: 163px;
+    }
   }
 
 /*--------------------------------------------------------------
